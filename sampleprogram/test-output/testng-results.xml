@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="12273" started-at="2020-01-28T18:50:51 IST" finished-at="2020-01-28T18:51:04 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="12273" started-at="2020-01-28T18:50:51 IST" finished-at="2020-01-28T18:51:04 IST">
+      <class name="frameWork.CreateProjectTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:frameWork.CreateProjectTest@578486a3]" name="setup" is-config="true" duration-ms="7624" started-at="2020-01-28T18:50:51 IST" finished-at="2020-01-28T18:50:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="clickonProjectsandCustomer()[pri:0, instance:frameWork.CreateProjectTest@578486a3]" name="clickonProjectsandCustomer" is-config="true" duration-ms="1932" started-at="2020-01-28T18:50:59 IST" finished-at="2020-01-28T18:51:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonProjectsandCustomer -->
+        <test-method status="PASS" signature="createproject()[pri:0, instance:frameWork.CreateProjectTest@578486a3]" name="createproject" duration-ms="8" started-at="2020-01-28T18:51:01 IST" finished-at="2020-01-28T18:51:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createproject -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:frameWork.CreateProjectTest@578486a3]" name="teardown" is-config="true" duration-ms="2658" started-at="2020-01-28T18:51:01 IST" finished-at="2020-01-28T18:51:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- frameWork.CreateProjectTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

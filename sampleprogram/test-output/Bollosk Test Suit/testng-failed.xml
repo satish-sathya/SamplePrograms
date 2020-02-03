@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite configfailurepolicy="continue" guice-stage="DEVELOPMENT" name="Failed suite [Bollosk Test Suit]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testng.CreateUser">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="LogoutBrowser"/>
+          <include name="clickOnProjectuser"/>
+          <include name="testCreateUser"/>
+          <include name="retriveSucessMessage"/>
+          <include name="loginBrowser"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- testng.CreateUser -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Bollosk Test Suit] -->
